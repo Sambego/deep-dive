@@ -1,0 +1,19 @@
+/**
+ * Column styles
+ */
+
+.columns {
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+
+    text-align: center;
+}

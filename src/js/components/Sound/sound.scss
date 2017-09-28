@@ -1,0 +1,25 @@
+/**
+ * Sound styles
+ */
+
+.sound {
+    transition: opacity 0.4s ease-in-out;
+
+    width: 8vw;
+    height: 8vw;
+    margin: 0 1vw;
+
+    background: #5fb3b3 url('../../../images/mic.png') 50% 50% no-repeat;
+    background-size: 3vw 5vw;
+
+    opacity: 0.8;
+
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,2 @@
+# Ignore vendor files
+src/js/Vendor/*

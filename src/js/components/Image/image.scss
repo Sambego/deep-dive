@@ -1,0 +1,15 @@
+/**
+ * Image styles
+ */
+
+.image {
+    position: relative;
+
+    background-position: 50% !important;
+    background-size: cover !important;
+    background: no-repeat;
+}
+
+.overlay {
+    background-blend-mode: multiply;
+}

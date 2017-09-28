@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="410px" height="292px" viewBox="0 0 410 292" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>envelope-schema-custom</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M29,279.5 L29,19.5" id="Line" stroke="#1B2B34" stroke-width="8" fill="#1B2B34" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M17.5,266 L395.511905,266" id="Line-2" stroke="#1B2B34" stroke-width="8" fill="#1B2B34" stroke-linecap="round"></path>
+        <polygon id="Star" fill="#1B2B34" points="28.5 30.4011139 15 30.3826859 21.7340409 18.682129 28.5 7 35.2659591 18.682129 42 30.3826859"></polygon>
+        <polygon id="Star" fill="#1B2B34" transform="translate(395.700557, 266.500000) rotate(90.000000) translate(-395.700557, -266.500000) " points="395.700557 278.200557 382.200557 278.182129 388.934598 266.481572 395.700557 254.799443 402.466516 266.481572 409.200557 278.182129"></polygon>
+        <text id="Attack" transform="translate(150.642305, 174.877876) rotate(-67.000000) translate(-150.642305, -174.877876) " font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#EC5F67">
+            <tspan x="116.212305" y="181.877876">Attack</tspan>
+        </text>
+        <text id="Time" font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#1B2B34">
+            <tspan x="328.33" y="289">Time</tspan>
+        </text>
+        <text id="Volume" transform="translate(13.000000, 75.000000) rotate(-90.000000) translate(-13.000000, -75.000000) " font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#1B2B34">
+            <tspan x="-26.98" y="82">Volume</tspan>
+        </text>
+        <path d="M48.4623392,247.721619 C58.720778,221.703689 69.8792626,207.657412 81.9377932,205.582789 C100.025589,202.470854 102.764822,207.631349 111.527238,223.68101 C120.289654,239.730671 140.048095,257.367575 159.373889,223.68101 C178.699682,189.994445 199.909838,102.961913 245.298738,102.961913 C275.558005,102.961913 298.840737,102.961913 315.146933,102.961913" id="Path-8" stroke="#EC5F67" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+        <rect id="Rectangle" fill="#EC5F67" x="323" y="99" width="8" height="8" rx="4"></rect>
+        <rect id="Rectangle" fill="#EC5F67" x="335" y="99" width="8" height="8" rx="4"></rect>
+        <rect id="Rectangle" fill="#EC5F67" x="347" y="99" width="8" height="8" rx="4"></rect>
+    </g>
+</svg>

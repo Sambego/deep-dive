@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+csr.pem
+key.pem
+server.crt
+yarn-error.log

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="410px" height="292px" viewBox="0 0 410 292" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>envelope-schema</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M29,279.5 L29,19.5" id="Line" stroke="#1B2B34" stroke-width="8" fill="#1B2B34" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M17.5,266 L395.511905,266" id="Line-2" stroke="#1B2B34" stroke-width="8" fill="#1B2B34" stroke-linecap="round"></path>
+        <polygon id="Star" fill="#1B2B34" points="28.5 30.4011139 15 30.3826859 21.7340409 18.682129 28.5 7 35.2659591 18.682129 42 30.3826859"></polygon>
+        <polygon id="Star" fill="#1B2B34" transform="translate(395.700557, 266.500000) rotate(90.000000) translate(-395.700557, -266.500000) " points="395.700557 278.200557 382.200557 278.182129 388.934598 266.481572 395.700557 254.799443 402.466516 266.481572 409.200557 278.182129"></polygon>
+        <polyline id="Path-7" stroke="#EC5F67" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="75 240.659332 139.761665 123 268.151134 123 327.554166 236.085213"></polyline>
+        <text id="Attack" transform="translate(89.642305, 173.877876) rotate(-60.000000) translate(-89.642305, -173.877876) " font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#EC5F67">
+            <tspan x="55.2123048" y="180.877876">Attack</tspan>
+        </text>
+        <text id="Release" transform="translate(314.509707, 172.181227) rotate(63.000000) translate(-314.509707, -172.181227) " font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#EC5F67">
+            <tspan x="274.759707" y="179.181227">Release</tspan>
+        </text>
+        <text id="Time" font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#1B2B34">
+            <tspan x="328.33" y="289">Time</tspan>
+        </text>
+        <text id="Volume" transform="translate(13.000000, 75.000000) rotate(-90.000000) translate(-13.000000, -75.000000) " font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" fill="#1B2B34">
+            <tspan x="-26.98" y="82">Volume</tspan>
+        </text>
+    </g>
+</svg>

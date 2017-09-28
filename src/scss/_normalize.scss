@@ -1,0 +1,49 @@
+/**
+ * Enable box-sizing: border-box by default.
+ */
+* {
+    box-sizing: border-box;
+}
+
+/**
+ * Set the html font-size to 10px, this makes the calculation of REM values
+ * easier.
+ * Set the default font-family;
+ */
+html {
+    font-size: 10px;
+    height: 100%;
+
+    font-family: 'montserrat', Helvetica, Arial, sans-serif;
+    color: #1b2b34;
+}
+
+/**
+ * Reset the body font-size to a default 1.6rem (16px).
+ */
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+    font-size: 1.6rem;
+}
+
+/**
+ * Hide the scrollbar
+ */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/**
+ * Pre tag
+ */
+pre {
+    display: inline;
+    padding: 0.5rem;
+
+    background: rgba(#5fb3b3, 0.6);
+
+    border-radius: 0.5rem;
+}
