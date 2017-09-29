@@ -1,6 +1,6 @@
 {
-    "short_name": "IDKTBCDT",
-    "name": "I didn't know the browser could do that!",
+    "short_name": "Web Audio",
+    "name": "A deep dive into the web-audio API.",
     "icons": [
         {
             "src": "/android-icon-36x36.png",
@@ -41,7 +41,7 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#E7EEF4",
-    "theme_color": "#66B7F9",
+    "background_color": "#ffffff",
+    "theme_color": "#5FB3B3",
     "gcm_sender_id": "103953800507"
 }
