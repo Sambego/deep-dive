@@ -9,9 +9,6 @@ const Intro = () => {
     return (
         <Slide>
             <Columns>
-                <div>
-                    <Subtitle>Add Effects</Subtitle>
-                </div>
                 <Image
                     src={Effects}
                     style={{
@@ -20,6 +17,9 @@ const Intro = () => {
                     }}
                     color="#F99157"
                 />
+                <div>
+                    <Subtitle>Add Effects</Subtitle>
+                </div>
             </Columns>
         </Slide>
     );

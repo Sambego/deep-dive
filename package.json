@@ -1,15 +1,14 @@
 {
     "scripts": {
-        "build:prod":
-            "NODE_ENV=production rm -rf dist/ && webpack -p --env production",
-        "build:dev":
-            "webpack-dev-server --content-base dist --inline --hot --progress",
+        "build:prod": "NODE_ENV=production rm -rf dist/ && webpack -p --env production",
+        "build:dev": "webpack-dev-server --content-base dist --inline --hot --progress",
         "git:clean": "git fetch -p",
         "lint": "eslint src/js",
         "test:jest": "jest",
         "rebuild:sass": "npm rebuild node-sass"
     },
     "dependencies": {
+        "audio-effects": "^1.2.4",
         "autoprefixer": "^7.1.4",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.0.1",

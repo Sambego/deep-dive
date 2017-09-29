@@ -5,8 +5,15 @@ import styles from './wave.scss';
 
 class Wave extends Component {
     static propTypes = {
+        color: propTypes.string,
         context: propTypes.object,
         input: propTypes.object,
+        onClick: propTypes.func,
+    };
+
+    static defaultProps = {
+        color: '#EC5f67',
+        onClick: () => true,
     };
 
     componentDidMount() {
@@ -73,7 +80,7 @@ class Wave extends Component {
 
         this.canvasContext.lineCap = 'round';
         this.canvasContext.lineWidth = 12;
-        this.canvasContext.strokeStyle = '#EC5f67';
+        this.canvasContext.strokeStyle = this.props.color;
         this.canvasContext.stroke();
 
         if (this.state.running) {
@@ -95,6 +102,7 @@ class Wave extends Component {
                 className={styles.canvas}
                 ref={linkRef(this, 'canvas')}
                 height="400"
+                onClick={this.props.onClick}
             />
         );
     }
