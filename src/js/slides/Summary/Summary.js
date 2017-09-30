@@ -6,10 +6,21 @@ const Summary = () => {
     return (
         <Slide>
             <List>
-                <li>Play sounds</li>
-                <li>Create sounds</li>
-                <li>Compose melodies and rhytms</li>
-                <li>Alter sounds</li>
+                <li style={{ color: '#FAC863', fontWeight: 700 }}>
+                    Play sounds
+                </li>
+                <li style={{ color: '#EC5f67', fontWeight: 700 }}>
+                    Create sounds
+                </li>
+                <li style={{ color: '#6699CC', fontWeight: 700 }}>
+                    Compose melodies and rhytms
+                </li>
+                <li style={{ color: '#F99157', fontWeight: 700 }}>
+                    Add effects
+                </li>
+                <li style={{ color: '#C594C5', fontWeight: 700 }}>
+                    Live audio
+                </li>
             </List>
         </Slide>
     );
