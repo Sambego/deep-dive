@@ -2,11 +2,15 @@ import { h, render } from 'preact';
 import Slide from '../../../components/Slide';
 import Text from '../../../components/Text';
 
-const FunLink = () => {
+const Remote = () => {
     return (
         <Slide>
             <Text>
-                <a href="pedalboard-remote.sambego.be" title="Go to remote">
+                <a
+                    href="https://pedalboard-remote.sambego.be"
+                    title="Go to remote"
+                    target="_blank"
+                >
                     pedalboard-remote.sambego.be
                 </a>
             </Text>
@@ -14,4 +18,4 @@ const FunLink = () => {
     );
 };
 
-export default FunLink;
+export default Remote;

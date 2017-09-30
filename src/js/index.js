@@ -53,8 +53,11 @@ import EffectsAudioEffects from './slides/Effects/AudioEffects';
 import EffectsAudioEffectsCode from './slides/Effects/AudioEffectsCode';
 import Devtools from './slides/Devtools';
 import DevtoolsImage from './slides/DevtoolsImage';
-import EffectsFun from './slides/Effects/Fun';
-import EffectsFunLink from './slides/Effects/FunLink';
+import FunIntro from './slides/Fun/Intro';
+import Demo from './slides/Fun/Demo';
+import Fun from './slides/Fun/Fun';
+import Remote from './slides/Fun/Remote';
+import Links from './slides/Links';
 import Thanks from './slides/Thanks';
 
 render(
@@ -109,8 +112,11 @@ render(
         <EffectsAudioEffectsCode />
         <Devtools />
         <DevtoolsImage />
-        <EffectsFun />
-        <EffectsFunLink />
+        <FunIntro />
+        <Demo />
+        <Fun />
+        <Remote />
+        <Links />
         <Thanks />
     </Deck>,
     document.body

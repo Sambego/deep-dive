@@ -11,6 +11,7 @@ const AudioEffects = () => {
                 <a
                     href="https://github.com/sambego/audio-effects"
                     title="Go to audio-effects on github"
+                    target="_blank"
                 >
                     https://github.com/sambego/audio-effects
                 </a>

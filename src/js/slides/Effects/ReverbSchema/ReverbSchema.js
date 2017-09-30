@@ -8,7 +8,7 @@ const ReverbSchema = () => {
     return (
         <Slide>
             <Subtitle>Reverb</Subtitle>
-            <Icon src={Schema} style={{ width: '50vw' }} />
+            <Icon src={Schema} style={{ width: '80vw' }} />
         </Slide>
     );
 };

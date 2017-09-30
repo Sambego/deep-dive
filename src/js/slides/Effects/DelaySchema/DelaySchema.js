@@ -8,7 +8,7 @@ const DelaySchema = () => {
     return (
         <Slide>
             <Subtitle>Delay</Subtitle>
-            <Icon src={Schema} style={{ width: '50vw' }} />
+            <Icon src={Schema} style={{ width: '80vw' }} />
         </Slide>
     );
 };
