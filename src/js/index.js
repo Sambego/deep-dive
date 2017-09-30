@@ -51,6 +51,8 @@ import EffectsReverbCode from './slides/Effects/ReverbCode';
 import EffectsOther from './slides/Effects/Other';
 import EffectsAudioEffects from './slides/Effects/AudioEffects';
 import EffectsAudioEffectsCode from './slides/Effects/AudioEffectsCode';
+import Devtools from './slides/Devtools';
+import DevtoolsImage from './slides/DevtoolsImage';
 import EffectsFun from './slides/Effects/Fun';
 import EffectsFunLink from './slides/Effects/FunLink';
 import Thanks from './slides/Thanks';
@@ -105,6 +107,8 @@ render(
         <EffectsOther />
         <EffectsAudioEffects />
         <EffectsAudioEffectsCode />
+        <Devtools />
+        <DevtoolsImage />
         <EffectsFun />
         <EffectsFunLink />
         <Thanks />

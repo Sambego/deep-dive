@@ -39,6 +39,14 @@ const Thanks = () => {
                     https://pedalboard.sambego.be
                 </a>
             </Text>
+            <Text>
+                <a
+                    href="https://audio.sambego.be"
+                    title="Go to this presentation online"
+                >
+                    https://audio.sambego.be
+                </a>
+            </Text>
         </Slide>
     );
 };
