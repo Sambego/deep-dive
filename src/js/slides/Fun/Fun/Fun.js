@@ -11,8 +11,8 @@ const Fun = () => {
                 style={{
                     width: '80vw',
                     height: '80vh',
-                    backgroundColor: 'transparent',
                 }}
+                color="transparent"
             />
         </Slide>
     );

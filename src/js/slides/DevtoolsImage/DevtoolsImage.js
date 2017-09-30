@@ -11,8 +11,8 @@ const DevtoolsImage = () => {
                 style={{
                     width: '70vw',
                     height: '80vh',
-                    backgroundColor: 'transparent',
                 }}
+                color="transparent"
             />
         </Slide>
     );
