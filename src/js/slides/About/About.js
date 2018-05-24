@@ -4,7 +4,7 @@ import Columns from '../../components/Columns';
 import Image from '../../components/Image';
 import Subtitle from '../../components/Subtitle';
 import List from '../../components/List';
-import Sam from '../../../images/sam.jpg';
+import Sam from '../../../images/sam2.jpg';
 
 const About = () => {
     return (
@@ -23,6 +23,7 @@ const About = () => {
                     <List>
                         <li>Software engineer</li>
                         <li>madewithlove</li>
+                        <li>Google Developer Expert</li>
                         <li>Fronteers</li>
                     </List>
                 </div>

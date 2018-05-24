@@ -114,6 +114,7 @@ class Wave extends Component {
             this
         );
         this.inputNode.connect(this.audioProcessorNode);
+        this.audioProcessorNode.connect(this.audioContext.destination);
     }
 
     render() {
