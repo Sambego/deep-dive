@@ -42,7 +42,7 @@ const createConfig = (env = 'development') => {
                     }),
                 },
                 {
-                    test: /\.(png|jpg|woff|woff2)$/,
+                    test: /\.(png|jpg|woff|woff2|ogg)$/,
                     use: 'file-loader?name=[name].[ext]',
                 },
                 {

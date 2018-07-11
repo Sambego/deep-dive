@@ -12,6 +12,11 @@ import PlayFetch from './slides/Play/Fetch';
 import PlayBuffer from './slides/Play/Buffer';
 import PlayInput from './slides/Play/Input';
 import CreateIntro from './slides/Create/Intro';
+import CreateNodesIntro from './slides/Create/NodesIntro';
+import CreateNodes from './slides/Create/Nodes';
+import CreateNodesDetail from './slides/Create/NodesDetail';
+import CreateNodesProps from './slides/Create/NodesProps';
+import CreateNodesPropsDetail from './slides/Create/NodesPropsDetail';
 import CreateOscillator from './slides/Create/Oscillator';
 import CreateOscillatorCode from './slides/Create/OscillatorCode';
 import CreateOscillatorTypes from './slides/Create/OscillatorTypes';
@@ -40,12 +45,16 @@ import EffectsVolume from './slides/Effects/Volume';
 import EffectsVolumeSchema from './slides/Effects/VolumeSchema';
 import EffectsVolumeCode from './slides/Effects/VolumeCode';
 import EffectsDistortion from './slides/Effects/Distortion';
+import EffectsDistortionPreview from './slides/Effects/DistortionPreview';
 import EffectsDistortionSchema from './slides/Effects/DistortionSchema';
 import EffectsDistortionCode from './slides/Effects/DistortionCode';
+import EffectsDelayPreview from './slides/Effects/DelayPreview';
 import EffectsDelaySchema from './slides/Effects/DelaySchema';
 import EffectsDelayCode from './slides/Effects/DelayCode';
+import EffectsFlangerPreview from './slides/Effects/FlangerPreview';
 import EffectsFlangerSchema from './slides/Effects/FlangerSchema';
 import EffectsFlangerCode from './slides/Effects/FlangerCode';
+import EffectsReverbPreview from './slides/Effects/ReverbPreview';
 import EffectsReverbSchema from './slides/Effects/ReverbSchema';
 import EffectsReverbCode from './slides/Effects/ReverbCode';
 import EffectsOther from './slides/Effects/Other';
@@ -55,10 +64,17 @@ import Devtools from './slides/Devtools';
 import DevtoolsImage from './slides/DevtoolsImage';
 import FunIntro from './slides/Fun/Intro';
 import Demo from './slides/Fun/Demo';
+import MidiIntro from './slides/Midi/MidiIntro';
+import MidiController from './slides/Midi/MidiController';
+import MidiCode from './slides/Midi/MidiCode';
+import MidiCodeSend from './slides/Midi/MidiCodeSend';
+import MidiTest from './slides/Midi/MidiTest';
 import Fun from './slides/Fun/Fun';
 import Remote from './slides/Fun/Remote';
 import Links from './slides/Links';
 import Thanks from './slides/Thanks';
+
+import ConfIntro from './slides/Title/ConfIntro';
 
 render(
     <Deck>
@@ -71,6 +87,11 @@ render(
         <PlayBuffer />
         <PlayInput />
         <CreateIntro />
+        <CreateNodesIntro />
+        <CreateNodes />
+        <CreateNodesDetail />
+        <CreateNodesProps />
+        <CreateNodesPropsDetail />
         <CreateOscillator />
         <CreateOscillatorCode />
         <CreateOscillatorTypes />
@@ -99,12 +120,16 @@ render(
         <EffectsVolumeSchema />
         <EffectsVolumeCode />
         <EffectsDistortion />
+        <EffectsDistortionPreview />
         <EffectsDistortionSchema />
         <EffectsDistortionCode />
+        <EffectsDelayPreview />
         <EffectsDelaySchema />
         <EffectsDelayCode />
+        <EffectsFlangerPreview />
         <EffectsFlangerSchema />
         <EffectsFlangerCode />
+        <EffectsReverbPreview />
         <EffectsReverbSchema />
         <EffectsReverbCode />
         <EffectsOther />
@@ -114,6 +139,11 @@ render(
         <DevtoolsImage />
         <FunIntro />
         <Demo />
+        <MidiIntro />
+        <MidiController />
+        <MidiCode />
+        <MidiCodeSend />
+        <MidiTest />
         <Fun />
         <Remote />
         <Links />
