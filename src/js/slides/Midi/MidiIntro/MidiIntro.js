@@ -6,7 +6,7 @@ const MidiIntro = () => {
     return (
         <Slide>
             <Subtitle>
-                What if we could controll everything with hardware?
+                What if we could control everything with hardware?
             </Subtitle>
         </Slide>
     );
