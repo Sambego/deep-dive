@@ -5,6 +5,7 @@ import Router from 'preact-router';
 import Deck from './components/Deck';
 import Title from './slides/Title';
 import About from './slides/About';
+import About2 from './slides/About/About2.js';
 import Summary from './slides/Summary';
 import PlayIntro from './slides/Play/Intro';
 import PlayTag from './slides/Play/Tag';
@@ -35,12 +36,17 @@ import CreateEnvelopesCodeFrequency from './slides/Create/EnvelopesCodeFrequency
 import CreateEnvelopesExponential from './slides/Create/EnvelopesExponential';
 import CreateEnvelopesSchemaExponential from './slides/Create/EnvelopesSchemaExponential';
 import CreateEnvelopesCodeExponential from './slides/Create/EnvelopesCodeExponential';
+import Synth from './slides/Create/Synth';
+import Atom from './slides/Create/Synth/Atom';
 import ComposeIntro from './slides/Compose/Intro';
 import ComposeScale from './slides/Compose/Scale';
 import ComposeSimple from './slides/Compose/Simple';
 import ComposeRandom from './slides/Compose/Random';
 import ComposeCode from './slides/Compose/Code';
+import Musicfns from './slides/Compose/Musicfns';
+import Musicfns2 from './slides/Compose/Musicfns/Fns2';
 import EffectsIntro from './slides/Effects/Intro';
+import EffectsPedalboard from './slides/Effects/Pedalboard';
 import EffectsVolume from './slides/Effects/Volume';
 import EffectsVolumeSchema from './slides/Effects/VolumeSchema';
 import EffectsVolumeCode from './slides/Effects/VolumeCode';
@@ -110,12 +116,17 @@ render(
         <CreateEnvelopesSchemaExponential />
         <CreateEnvelopesExponential />
         <CreateEnvelopesCodeExponential />
+        <Synth />
+        <Atom />
         <ComposeIntro />
         <ComposeScale />
         <ComposeSimple />
         <ComposeRandom />
         <ComposeCode />
+        <Musicfns />
+        <Musicfns2 />
         <EffectsIntro />
+        <EffectsPedalboard />
         <EffectsVolume />
         <EffectsVolumeSchema />
         <EffectsVolumeCode />
@@ -143,7 +154,6 @@ render(
         <MidiController />
         <MidiCode />
         <MidiCodeSend />
-        <MidiTest />
         <Fun />
         <Remote />
         <Links />
