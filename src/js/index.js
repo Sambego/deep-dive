@@ -5,7 +5,6 @@ import Router from 'preact-router';
 import Deck from './components/Deck';
 import Title from './slides/Title';
 import About from './slides/About';
-import About2 from './slides/About/About2.js';
 import Summary from './slides/Summary';
 import PlayIntro from './slides/Play/Intro';
 import PlayTag from './slides/Play/Tag';
