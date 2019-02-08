@@ -84,6 +84,9 @@ const createConfig = (env = 'development') => {
                 {
                     from: './src/browserconfig.xml',
                 },
+                {
+                    from: "./_redirects"
+                },
             ]),
         ],
         devServer: {
