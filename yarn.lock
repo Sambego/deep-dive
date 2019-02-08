@@ -2739,9 +2739,9 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-frequency-calculator@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/frequency-calculator/-/frequency-calculator-0.0.7.tgz#e437655e74fc7f34c861988ee4c6edb347e84f4d"
+frequency-calculator@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/frequency-calculator/-/frequency-calculator-0.0.8.tgz#0085156fe115969e8c80d8fe6803efeee2e9bae0"
 
 fresh@0.5.2:
   version "0.5.2"
