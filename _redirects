@@ -1,1 +1,6 @@
+
+# Redirect sambego.be to sambeg.tech
+https://audio.sambego.be/* https://audio.sambego.tech/:splat 301!
+
+# Suport the history API
 /* /index.html 200
