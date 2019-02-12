@@ -85,7 +85,7 @@ console.log('----------------');
 console.log('Checking what\'s under the hood? Let me make it easy for you!');
 console.log('The source of this presentation can be found at: https://github.com/sambego/deep-dive');
 console.log('Yes I know, it\'s all a bit of a hack :)');
-console.log('Want to create your own presentations using React components? Check here: https://sambego.github.io/diorama-demo/0');
+console.log('Want to create your own presentations using React components? Check here: https://sambego.github.io/diorama-demo');
 console.log('Got more questions? Contact me at https://twitter.com/sambego');
 console.log('----------------');
 
