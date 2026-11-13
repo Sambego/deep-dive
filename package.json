@@ -29,7 +29,6 @@
         "html-webpack-plugin": "^2.30.1",
         "keycode": "^2.1.8",
         "linkref": "^1.0.1",
-        "node-sass": "^4.5.3",
         "postcss-loader": "^2.0.6",
         "preact": "^8.2.5",
         "preact-render-to-string": "^3.6.3",
@@ -37,11 +36,14 @@
         "prismjs": "^1.8.1",
         "proptypes": "^1.1.0",
         "raw-loader": "^0.5.1",
-        "sass-loader": "^6.0.6",
+        "sass-loader": "7.3.1",
         "style-loader": "^0.18.2",
         "svg-inline-loader": "^0.8.0",
         "webpack": "^3.6.0",
         "webpack-dev-server": "^2.8.2",
         "webpack-dotenv-plugin": "^2.0.2"
+    },
+    "devDependencies": {
+        "sass": "1.32.13"
     }
 }
